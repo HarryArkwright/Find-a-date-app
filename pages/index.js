@@ -89,9 +89,5 @@ const callGenerateEndpoint = async () => {
   );
 };
 
+
 export default Home;
-
-
-import { inject } from '@vercel/analytics';
-
-inject();
