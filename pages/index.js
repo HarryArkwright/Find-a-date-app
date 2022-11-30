@@ -82,7 +82,9 @@ const callGenerateEndpoint = async () => {
           target="_blank"
           rel="noreferrer"
         >
-
+<div className="badge">
+            <p>build with ❤️ by Harry Arkwright</p>
+          </div>
         </a>
       </div>
     </div>
