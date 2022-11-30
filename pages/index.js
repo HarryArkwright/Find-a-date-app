@@ -42,7 +42,7 @@ const callGenerateEndpoint = async () => {
             <h1>Magic Chat Up Line Generator. Find a Date</h1>
           </div>
           <div className="header-subtitle">
-            <h2>Write a sentence about what you want the chat up line to be about ( ex. Write me a funny chat up line ).  </h2>
+            <h2>Use AI to find a date. Write a sentence about what you want the chat up line to be about ( ex. Write me a funny chat up line ).  </h2>
           </div>
         </div>
                 <div className="prompt-container">
@@ -78,12 +78,12 @@ const callGenerateEndpoint = async () => {
       </div>
       <div className="badge-container grow">
         <a
-          href="https://buildspace.so/builds/ai-writer"
+          href="https://twitter.com/HarryArkwright1"
           target="_blank"
           rel="noreferrer"
         >
 <div className="badge">
-            <p>build with ❤️ by Harry Arkwright</p>
+            <p>Built with ❤️ by Harry Arkwright</p>
           </div>
         </a>
       </div>
