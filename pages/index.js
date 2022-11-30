@@ -82,7 +82,7 @@ const callGenerateEndpoint = async () => {
           target="_blank"
           rel="noreferrer"
         >
-          
+
         </a>
       </div>
     </div>
@@ -91,3 +91,7 @@ const callGenerateEndpoint = async () => {
 
 export default Home;
 
+
+import { inject } from '@vercel/analytics';
+
+inject();
