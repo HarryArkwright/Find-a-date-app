@@ -82,9 +82,7 @@ const callGenerateEndpoint = async () => {
           target="_blank"
           rel="noreferrer"
         >
-          <div className="badge">
-            <Image src={buildspaceLogo} alt="buildspace logo" />
-            </div>
+          
         </a>
       </div>
     </div>
