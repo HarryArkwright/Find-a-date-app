@@ -38,7 +38,7 @@ const generateAction = async (req, res) => {
     // I set a higher temperature for this one. Up to you!
     temperature: 0.85,
 		// I also increase max_tokens.
-    max_tokens: 1250,
+    max_tokens: 750,
   });
   
   // Get the output
