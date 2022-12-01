@@ -64,7 +64,7 @@ const callGenerateEndpoint = async () => {
   <div className="output">
     <div className="output-header-container">
       <div className="output-header">
-        <h3> Your Chat Up Line</h3>
+        <h3> Your Chat Up Line. Hit generate again for more results!</h3>
       </div>
     </div>
     
