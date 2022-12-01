@@ -76,7 +76,7 @@ const callGenerateEndpoint = async () => {
 )}
 
 <div>
-<a href="emailto:youremail@domain.com?subject=sharing link\n&body=I am sharing a link: https://google.com">Share this link</a>
+<a href="https://wa.me/">Share this link</a>
 </div>
 
 </div>
