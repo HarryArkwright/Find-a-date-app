@@ -74,6 +74,11 @@ const callGenerateEndpoint = async () => {
     </div>
   </div>
 )}
+
+<div>
+<a href="emailto:youremail@domain.com?subject=sharing link\n&body=I am sharing a link: https://google.com">Share this link</a>
+</div>
+
 </div>
       </div>
       <div className="badge-container grow">
