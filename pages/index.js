@@ -93,6 +93,7 @@ const callGenerateEndpoint = async () => {
         </a>
       </div>
     </div>
+
   );
 };
 
