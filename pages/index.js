@@ -34,21 +34,21 @@ const callGenerateEndpoint = async () => {
   return (
     <div className="root">
       <Head>
-        <title>Source the best</title>
+        <title>Get a date</title>
       </Head>
       <div className="container">
         <div className="header">
           <div className="header-title">
-            <h1>Find the cheapest product available.</h1>
+            <h1>Magic Chat Up Line Generator. Find a Date</h1>
           </div>
           <div className="header-subtitle">
-            <h2> Insert the name of the product and find the cheapest place to buy that product. </h2>
+            <h2>Use AI to find a date. Start your sentence with "Write me a chat up line about".... ( ex. Write me a funny chat up line about flowers, Write me a provocative chat up line about golf ). </h2>
           </div>
         </div>
                 <div className="prompt-container">
                 <textarea
   className="prompt-box"
-  placeholder="Find me the cheapest {product name} for sale and include the website link...."
+  placeholder="Write me a chat up line about....."
   value={userInput}
   onChange={onUserChangedText}
 />
@@ -56,7 +56,7 @@ const callGenerateEndpoint = async () => {
     <a className={isGenerating ? 'generate-button loading' : 'generate-button'}
     onClick={callGenerateEndpoint}>
       <div className="generate">
-      {isGenerating ? <span class="loader"></span> : <p>Source</p>}
+      {isGenerating ? <span class="loader"></span> : <p>Generate</p>}
       </div>
     </a>
   </div>
@@ -64,7 +64,7 @@ const callGenerateEndpoint = async () => {
   <div className="output">
     <div className="output-header-container">
       <div className="output-header">
-        <h3>Cheapest product source</h3>
+        <h3> Your Chat Up Line</h3>
       </div>
     </div>
     
@@ -88,7 +88,7 @@ const callGenerateEndpoint = async () => {
           rel="noreferrer"
         >
 <div className="badge">
-            <p>Built with ❤️ this Christmas</p>
+            <p>Built with ❤️ by Harry Arkwright</p>
           </div>
         </a>
       </div>
