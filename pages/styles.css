@@ -337,7 +337,7 @@ textarea {
     transform: none;
 }
 
-.generate-content p {
+.generate-content h4 {
     text-align: center;
     white-space: pre-line;
     color: #FFF ;
