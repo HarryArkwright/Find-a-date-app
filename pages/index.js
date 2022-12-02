@@ -71,8 +71,10 @@ const callGenerateEndpoint = async () => {
     <div className="output-content">
       <p>{apiOutput}</p>
   
+    </div>
+  
   <div className="generate-content">
-   <h4>Hit generate again for more results!<h4>
+   <h4>Hit generate again for more results!</h4>
      
   </div>
   
