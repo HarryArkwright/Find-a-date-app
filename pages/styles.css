@@ -326,6 +326,23 @@ textarea {
     color: rgb(231, 102, 102);
 }
 
+
+.generate-content {
+    outline: none;
+    display: flex;
+    /* max-width: 25%; */
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    transform: none;
+}
+
+.generate-content p {
+    text-align: center;
+    white-space: pre-line;
+    color: #FFF ;
+}
+
 @media (min-width: 810px) and (max-width: 1199px) {
     .container {
         max-width: 600px;
