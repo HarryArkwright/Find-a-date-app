@@ -42,7 +42,7 @@ const callGenerateEndpoint = async () => {
             <h1>Magic Chat Up Line Generator. Find a Date</h1>
           </div>
           <div className="header-subtitle">
-            <h2>Use AI to find a date. Start your sentence with "Write me a chat up line about".... ( ex. Write me a funny chat up line about flowers, Write me a provocative chat up line about golf ). </h2>
+            <h2>Use AI to find a date. Start your sentence with "Write me a chat up line about".... ( for example: Write me a funny chat up line about flowers, Write me a provocative chat up line about golf ). </h2>
           </div>
         </div>
                 <div className="prompt-container">
@@ -74,7 +74,7 @@ const callGenerateEndpoint = async () => {
     </div>
   
   <div className="generate-content">
-   <h4>Hit generate again for more results!</h4>
+   <h4> Don't like your chat up line? Hit generate again for more results! </h4>
      
   </div>
   
