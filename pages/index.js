@@ -48,7 +48,7 @@ const callGenerateEndpoint = async () => {
             <h1>Magic Chat Up Line Generator. Use AI to Find a Date</h1>
           </div>
           <div className="header-subtitle">
-            <h2>Start your sentence with "Write me a chat up line about"..... ( e.g. Write me a funny chat up line about Christmas, Write me a provocative chat up line about golf ). </h2>
+            <h2>Start your sentence with "Write me a chat up line about"..... ( e.g. Write me a humorous chat up line about Christmas, Write me a provocative chat up line about golf ). </h2>
           </div>
         </div>
                 <div className="prompt-container">
