@@ -2,6 +2,8 @@ import { useState } from 'react';
 import Head from 'next/head';
 import Image from 'next/image';
 import buildspaceLogo from '../assets/buildspace-logo.png';
+import { Analytics } from '@vercel/analytics/react';
+
 
 const Home = () => {
   const [userInput, setUserInput] = useState('');
@@ -107,5 +109,16 @@ const callGenerateEndpoint = async () => {
   );
 };
 
+
+function MyApp({ Component, pageProps }) {
+  return (
+    <>
+      <Component {...pageProps} />
+      <Analytics />
+    </>
+  );
+}
+
+export default MyApp;
 
 export default Home;
