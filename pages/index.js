@@ -34,13 +34,6 @@ const callGenerateEndpoint = async () => {
   return (
     <div className="root">
       <Head>
-    
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-M72PT73K1K"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
   gtag('config', 'G-M72PT73K1K');
 </script>
