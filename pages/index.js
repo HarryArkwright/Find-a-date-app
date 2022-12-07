@@ -3,8 +3,6 @@ import Head from 'next/head';
 import Image from 'next/image';
 import buildspaceLogo from '../assets/buildspace-logo.png';
 
-
-
 const Home = () => {
   const [userInput, setUserInput] = useState('');
   const [apiOutput, setApiOutput] = useState('')
@@ -36,10 +34,6 @@ const callGenerateEndpoint = async () => {
   return (
     <div className="root">
       <Head>
-
-  gtag('config', 'G-M72PT73K1K');
-</script>
-  
         <title>Get a date</title>
       </Head>
       <div className="container">
@@ -48,7 +42,7 @@ const callGenerateEndpoint = async () => {
             <h1>Magic Chat Up Line Generator. Use AI to Find a Date</h1>
           </div>
           <div className="header-subtitle">
-            <h2>Start your sentence with "Write me a chat up line about"..... ( e.g. Write me a humorous chat up line about Christmas, Write me a provocative chat up line about golf ). </h2>
+            <h2>Start your sentence with "Write me a chat up line about"..... ( e.g. Write me a funny chat up line about Christmas, Write me a provocative chat up line about golf ). </h2>
           </div>
         </div>
                 <div className="prompt-container">
@@ -81,12 +75,15 @@ const callGenerateEndpoint = async () => {
   
   <div className="generate-content">
    <h4> Don't like your chat up line? Hit generate again for more results! </h4>
-     <a href="whatsapp://send?text={{Encoded_URL}}">Share on WhatsApp</a>
+     
   </div>
   
   </div>
 )}
 
+<div>
+<a href="https://wa.me/">Share this link</a>
+</div>
 
 </div>
       </div>
@@ -106,16 +103,5 @@ const callGenerateEndpoint = async () => {
   );
 };
 
-
-function MyApp({ Component, pageProps }) {
-  return (
-    <>
-      <Component {...pageProps} />
-      <Analytics />
-    </>
-  );
-}
-
-export default MyApp;
 
 export default Home;
