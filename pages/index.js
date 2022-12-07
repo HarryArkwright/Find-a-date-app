@@ -2,7 +2,7 @@ import { useState } from 'react';
 import Head from 'next/head';
 import Image from 'next/image';
 import buildspaceLogo from '../assets/buildspace-logo.png';
-import { Analytics } from '@vercel/analytics/react';
+
 
 
 const Home = () => {
