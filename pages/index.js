@@ -81,15 +81,12 @@ const callGenerateEndpoint = async () => {
   
   <div className="generate-content">
    <h4> Don't like your chat up line? Hit generate again for more results! </h4>
-     
+     <a href="whatsapp://send?text={{Encoded_URL}}">Share on WhatsApp</a>
   </div>
   
   </div>
 )}
 
-<div>
-<a href="whatsapp://send?text={{Encoded_URL}}">Share on WhatsApp</a>
-</div>
 
 </div>
       </div>
